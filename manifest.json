@@ -1,0 +1,16 @@
+{
+  "name":"Pomotroid Extension",
+  "description":"A chrome extension to have site blocking linked to a local pomotroid instance",
+  "version":"1.0",
+  "manifest_version":3,
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "action": {
+    "default_popup": "./src/index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"  
+  ]
+}
